@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.335" height="30.97" viewBox="0 0 33.335 30.97">
+  <g id="Group_73854" data-name="Group 73854" transform="translate(-928.013 -1115.038)">
+    <g id="Group_73701" data-name="Group 73701" transform="translate(928.513 1103.737)">
+      <path id="Icon_material-shopping-cart" data-name="Icon material-shopping-cart" d="M9.744,24.984a2.748,2.748,0,1,0,2.748,2.748A2.744,2.744,0,0,0,9.744,24.984ZM1.5,3V5.748H4.248L9.195,16.177,7.34,19.543A2.657,2.657,0,0,0,7,20.862,2.756,2.756,0,0,0,9.744,23.61H26.232V20.862H10.321a.34.34,0,0,1-.344-.344l.041-.165,1.237-2.24H21.492A2.735,2.735,0,0,0,23.9,16.7l4.919-8.917a1.342,1.342,0,0,0,.165-.66,1.378,1.378,0,0,0-1.374-1.374H7.285L5.993,3ZM23.484,24.984a2.748,2.748,0,1,0,2.748,2.748A2.744,2.744,0,0,0,23.484,24.984Z" transform="translate(-1.5 11.29)" fill="#d3c1b3" stroke="#d3c1b3" stroke-width="1"/>
+    </g>
+    <g id="Group_73700" data-name="Group 73700" transform="translate(178.724 -218.974)">
+      <g id="Component_14_10" data-name="Component 14 – 10" transform="translate(770.012 1335.012)">
+        <path id="Icon_ionic-md-add-circle" data-name="Icon ionic-md-add-circle" d="M22.089,17.422H17.422v4.667H15.143V17.422H10.477V15.143h4.667V10.477h2.279v4.667h4.667v2.279Z" transform="translate(-10.477 -10.477)" fill="#cf5231" stroke="#cf5231" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

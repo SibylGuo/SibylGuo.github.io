@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111.266" height="26.807" viewBox="0 0 111.266 26.807">
+  <g id="Component_9_22" data-name="Component 9 – 22" transform="translate(1 1.096)">
+    <g id="footer">
+      <path id="twitter" d="M29.724,3a14.232,14.232,0,0,1-4.1,2A5.849,5.849,0,0,0,15.362,8.918v1.306A13.918,13.918,0,0,1,3.611,4.309S-1.611,16.06,10.14,21.282A15.2,15.2,0,0,1,1,23.894c11.751,6.528,26.113,0,26.113-15.015a5.875,5.875,0,0,0-.1-1.084A10.08,10.08,0,0,0,29.724,3Z" transform="translate(79.542 -2.989)" fill="none" stroke="#d3c1b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="facebook" d="M20.591,2H16.884a6.178,6.178,0,0,0-6.178,6.178v3.707H7v4.942h3.707v9.884h4.942V16.826h3.707l1.236-4.942H15.649V8.178a1.236,1.236,0,0,1,1.236-1.236h3.707Z" transform="translate(38.185 -2)" fill="none" stroke="#d3c1b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="instagram" transform="translate(0 0.037)">
+        <rect id="Rectangle_1587" data-name="Rectangle 1587" width="24.71" height="24.71" rx="5" transform="translate(0 -0.037)" fill="none" stroke="#d3c1b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_38012" data-name="Path 38012" d="M17.577,12.046a4.793,4.793,0,1,1-4.038-4.038A4.793,4.793,0,0,1,17.577,12.046Z" transform="translate(-0.446 -0.466)" fill="none" stroke="#d3c1b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_475" data-name="Line 475" x2="0.012" transform="translate(19.121 5.552)" fill="none" stroke="#d3c1b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

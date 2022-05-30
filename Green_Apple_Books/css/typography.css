@@ -1,0 +1,124 @@
+h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+
+
+/*apply rule set base on the screen size*/
+
+/*set font type and size, and can call it again by using var()*/
+
+
+h1{font-size:2.5rem; /*40px*/}
+h2{font-size: 2.25rem; /*36px*/}
+h3{font-size: 1.875rem; /*30px*/}
+h4{font-size: 1.5rem; /*24px*/}
+h5{font-size: 1.25rem; /*20px*/}
+p{font-size: 1rem; /*16px*/}
+
+
+@media screen and (min-wideth:768px){
+    html{font-size: 12px;}
+}
+
+@media screen and (min-wideth:1024px){
+    html{font-size:14px;}
+    
+}
+
+@media screen and (min-wideth:1200px){
+    html{font-size: 16px;}
+} 
+/*use at least 16px for body/input*/
+
+
+:root{
+    --primary-font:'Cormorant Garamond', serif;
+    --secondary-font:'Raleway', sans-serif;
+    --UI-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav a{
+    text-decoration: none;}
+
+p{
+    font-family: var(--secondary-font);
+    max-width: 38em;
+    text-align: justify;
+    hyphens: auto;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: #D0C6AC;
+}
+
+
+
+
+.title{
+    font-family: var(--primary-font);
+    font-style: Italic;
+    color: #D3C1B3;
+    font-size: 1.8rem;
+}
+
+.sidebar-heading{
+    font-size: 0.8rem;
+}
+
+
+.title__section{    
+    text-align: center;}
+
+.title__main{
+    text-align:left;
+}
+
+
+.product-font{
+    font-family: var(--secondary-font);
+    color: #D3C1B3;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.sidebar-price{    
+    font-family:  var(--secondary-font);
+    color: #D3C1B3;
+    font-weight: 400;
+
+}
+
+.path-font{    
+    font-family: var(--UI-font);
+    font-size:1rem;}
+
+.path-item{
+    color: #7C7A6C;
+}
+.path-item-sparator{
+    color: #7C7A6C;
+}
+.path-item-last-child{
+    color: #D3C1B3;
+
+}
+
+.author-name{
+    font-size: 0.8rem;
+    color: #A19D9D;
+}
+
+.price-product-listing{
+    text-align: center;
+    font-size: 1rem;
+}
+
+p{font-size: 1rem;}
+/*
