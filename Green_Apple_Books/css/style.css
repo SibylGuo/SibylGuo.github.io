@@ -1,7 +1,9 @@
 /*load different file for different size of screen*/
 @import url("/css/colous.css");
 @import url("/css/typography.css");
-@import url("/css/small-style.css") screen and (max-width: 960px);
+@import url("/css/newstyle.css");
+@import url("/css/spacing.css");
+@import url("/css/animation.css");
 @import url("/css/layout.css") screen and (min-width: 960px);
 
 
@@ -28,9 +30,11 @@ input, textarea, select{
     vertical-align: middle; /*text alignment*/
     }
 
-*{transition: all 1.5s ease-in-out;}
+/* *{transition: all 1.5s ease-in-out;} */
 
 /*  
 <img src="" size="(max-width:480px) 100vw, (the image fill 100% of the view port width)
                    (max-width:960px) 70vw, 
                     240px" (if not the situation  upper, size = 240px>*/
+
+

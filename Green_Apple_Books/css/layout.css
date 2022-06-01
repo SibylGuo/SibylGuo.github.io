@@ -76,7 +76,6 @@
 }
 
 .searchBar > form > a >img.search-icon{
-
     max-width: 20px;
     padding-bottom: 5px;
     
@@ -92,74 +91,7 @@
     padding-bottom: 5px;
 }
 
-ul.icons > li > img{
-    max-height: 20px;
-}
 
-nav{
-    align-items: center;
-    grid-row:2/3;
-    grid-column:1/3;
-    padding-top: 20px;    
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
- }
-
-  
-nav > ul{
-    max-width: 100%;
-    border-top: 2px solid #707070;
-    border-bottom: 2px solid #707070;
-    padding: 20px 0 20px 0;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    
-
-}
-
-
-/* ul.dropdown-content.responsive { 
-    display: none;
-}*/
-
-.dropdown-trigger{
-    position: relative;
-}
-.dropdown-content{
-    position: absolute;
-    top:100%;
-    transform: scale(0);
-    z-index: 1;
-}
-
-.dropdown-trigger:hover .dropdown-content{
-    transform: scale(1);
-}
-
-
-
-nav > ul > li a {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1rem;
-    color: #D3C1B3;
-    display: block;
-    text-align: center;
-    padding:10px 1rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-nav > ul > li a:hover {
-    background-color: #A64C30;}
-  
 sidebar{
     grid-column:1/2;
     border-right: 2px solid #707070;
@@ -239,13 +171,7 @@ img.storeImg{
     margin-top: 10px;
 }
 
-main{
-    grid-row:3/4;
-    grid-column:2/3;
-    display: flex;
-    flex-direction: column;
-    gap:2em;
-}
+
 
 .path{    
     text-align: start;
@@ -261,12 +187,6 @@ main{
 
 
 
-.main-padding{
-    padding-left: 12.5%;
-    padding-right: 12.5%;
-}
-
-
 
 .main-a{
     display: flex;
@@ -279,47 +199,6 @@ main{
 .main-a > p{
     text-align: center;}
 
-
-.main-b{
-    width: 100%;
-    padding-top: 40px;
-}
-.group-bookwelike{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width: 100%;
-    flex-wrap: wrap;
-
-}
-.product-card{
-    max-width: 21%;
-    padding-top: 15px; 
-
-
-}
-.group-bookwelike > .product-card > img{
-    border-color: #D3C1B3;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 11px;
-    width: 100%;
-    flex: 1 1 auto;
-    max-height: 324px;
-    max-width: 178px;
-    margin-bottom: 5px;
-
-}
-
-.product-card-icons{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    bottom: 25px;
-    margin-top: 8px;
-}
-.product-card > div > a > img{
-    max-height: 15px;}
 
 
 section.main-c{
@@ -340,12 +219,7 @@ section.main-c > img{
 
 
 
-footer{
-    background-color: #2A321C;
-    height: 275px;
-    margin-top: 5em;
 
-}
 .footer-container{
     width: 100%;
     padding-top: 5em;
@@ -382,30 +256,3 @@ td{
     height: 25px;
 }
 
-
-/*product listing page*/
-.productlisting-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width: 100%;
-    background-color: #CF5231;
-    flex-wrap: wrap;}
-
-.product-card-2{
-    background-color:rgb(0,255,0,0.25); 
-    max-width: 23%;
-    padding-top: 15px;
-    justify-self: center;
-}
-
-.group-productlisting > .product-card-2 > img{
-    border-color: #D3C1B3;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 11px;
-    width: 100%;
-    flex: 1 1 auto;
-    max-height: 324px;
-    max-height: 178px;
-    }

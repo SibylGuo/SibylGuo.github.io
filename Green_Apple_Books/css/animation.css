@@ -1,0 +1,23 @@
+
+
+.dropdown-content{
+    position: absolute;
+    top:100%;
+    transform: scale(0);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-trigger:hover .dropdown-content{
+    transform: scale(1);
+}
+
+div.dropdown-information.drop {
+    display: none;} 
+
+
+@media screen and (max-width: 960px){
+    nav.responsive {
+        display: none;} 
+}
+@media screen and (min-width: 960px){}

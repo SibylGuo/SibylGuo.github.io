@@ -1,16 +1,141 @@
 :root{
     --space-unit:1em;
-    --space-xxs: calc(0.25 * var(--space-unit));
-    --space-xs: calc(0.5 * var(--space-unit));
-    --space-sm: calc(0.75 * var(--space-unit));
-    --space-md: calc(1.25 * var(--space-unit));
-    --space-lg: calc(2 * var(--space-unit));
-    --space-xl: calc(3.25 * var(--space-unit));
-    --space-xxl: 8calc(5.25 * var(--space-unit));
+    --space-xxs: calc(0.25 * var(--space-unit));/*4px */
+    --space-xs: calc(0.5 * var(--space-unit));/*8px */
+    --space-sm: calc(0.75 * var(--space-unit));/*12px */
+     --space-md: calc(1.25 * var(--space-unit)); /*20px */
+    --space-lg: calc(2 * var(--space-unit));/*32px */
+    --space-xl: calc(3.25 * var(--space-unit));/*52px */
+    --space-xxl: calc(5.25 * var(--space-unit));/*84px */
 }
 
-@media screen and (min-width: 992px) {
+.main-padding{
+    padding-left: 12.5%;
+    padding-right: 12.5%;}  
+
+.padding-dropdown{
+        padding-top: var(--space-xs);
+        padding-bottom: var(--space-xs);
+    }
+
+.padding-section{
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);}
+
+/*product page*/
+
+.dropdown-arrow{
+    padding-left: var(--space-sm);}
+
+img.heart{padding-left: var(--space-xxs);}
+
+.productpage-information {
+    gap: var(--space-xs);
+}
+
+.productpage-book{
+    padding-left: var(--space-sm);
+    gap: var(--space-md);
+
+}
+
+.productpage-book > div {    
+    gap: var(--space-xxs);    
+    padding-top: var(--space-sm);
+
+}
+.productpage-rating{
+    padding-right: var(--space-xxs);
+}
+
+
+
+
+.dropdown-information{
+    gap: var(--space-xxs);
+}
+
+.dropdown-information > div > a >img{
+    padding-right: var(--space-xs);}
+
+#reviewTable{
+    margin-bottom: var(--space-md);
+    background: none;
+}
+.reviewer-information{
+    padding-bottom: var(--space-sm);
+    padding-top:var(--space-xxs);
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+    :root{
+        --space-unit: 1em;
+    }
+
+    .logoRow{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: var(--space-md);}
+
+    .icons{
+        padding-bottom: var(--space-xxs);}
+
+
+    .page{
+        margin-left: 2.5%;
+        margin-right: 2.5%;}
+    
+
+    .dropdown-content > li{
+        padding: var(--space-sm);
+    }
+
+    nav > ul > li{
+        padding: var(--space-xs);
+    }
+    
+
+    .group-bookwelike > .product-card > a > img{
+    margin-bottom: var(--space-xs);}
+}
+
+
+
+
+
+@media screen and (min-width: 960px) {
     :root{
         --space-unit: 1.25em;
     }
+
+    nav{
+        padding-top: var(--space-md)
+    }
+
+    nav > ul{        
+        padding-top: var(--space-md);
+        padding-bottom: var(--space-md);}
+
+
+    main{        
+        gap:var(--space-lg);}
+
+  
+    
+    section.main-b.main-padding{
+        padding-top:0;
+    }
+    
+    
+    .group-bookwelike > .product-card > a > img{
+    margin-bottom: var(--space-xxs);}
+
+    
+
+    
 }
+
+

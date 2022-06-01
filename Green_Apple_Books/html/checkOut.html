@@ -1,5 +1,408 @@
 
-<label for= "deliveryInformation">State / Province</label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Apple Books</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="/JS/main.js"></script>
+
+</head>
+
+<body>
+    <div class="banner">
+                <h5>Free U.S. Meida mail on orders over $35 (Book only!)</h5>
+    </div>
+    <div class="page">
+        
+        <div class="logoRow">
+                    <a class="logo-image" href="homePage.html"><img class="logo-image" src="/icon/green apple logo.svg" alt="brand logo"></a>
+                    <a href="javascript:void(0);" class="hamburger" onclick="toggleResponsive()"><img class="logoRaw-menu" src="/icon/menu.svg"></a>
+                    <div class="searchBar">
+                        <form> 
+                        <input type="search field" id="query" name="q" placeholder="Search...">
+                        <a href=""><img class="search-icon" src="/icon/Icon awesome-search.svg"></a>
+                        </form>
+                    </div>
+        
+                    <ul class="icons">
+                        <li><img src="/icon/profile.svg" alt="profile"></li>
+                        <li><img src="/icon/heart.svg" alt="wish list"></li>
+                        <li><img src="/icon/shopping-cart.svg" alt="shopping-cart"></li>
+                    </ul>
+        </div>
+                
+        <nav id="topNav" class="responsive">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li  class="dropdown-trigger About-us"><a href="#">About us</a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Location & Direction</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Our Newsletter</a></li>
+                                <li><a href="#">Why Green Apple</a></li>
+                                <li><a href="#">Green Apple In The News</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-trigger Event" ><a href="#">Event
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Event Calendar</a></li>
+                                <li><a href="#">Fundraising</a></li>
+                                <li><a href="#">Holding Event At Gab</a></li>
+                                <li><a href="#">Green Apple Event Youtue Channel</a></li>
+                            </ul></li>
+                        <li class="dropdown-trigger shop-for-books"><a href="#">Shop for books
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Monthly Bookseller's Choice</a></li>
+                                <li><a href="#">New Bookes We like</a></li>
+                                <li><a href="#">New In Paperback</a></li>
+                                <li><a href="#">Recent Bestsellers</a></li>
+                                <li><a href="#">Signed Books</a></li>
+                                <li><a href="#">Pre-odered Books</a></li>
+                                <li><a href="#">Book Recommendations By Subject</a></li>
+                                <li><a href="#">Kids And Young Adult Recommendations</a></li>
+                                <li><a href="#">Recent Award Winners</a></li>
+                                <li><a href="#">Reading List</a></li>
+                                <li><a href="#">Staff Favorites</a></li>
+                                <li><a href="#">Audiobooks</a></li>
+                                <li><a href="#">Bulk Orders</a></li>
+                                <li><a href="#">Used Books</a></li>
+                                <li><a href="#">Featured Used Books</a></li>
+                                <li><a href="#">Ebooks</a></li>
+                                <li><a href="#">UHS Spring 2022</a></li>
+                            </ul></li>
+                        <li class="dropdown-trigger gifts"><a href="#">Gift and subscription
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Egift Code</a></li>
+                                <li><a href="#">Apple-A-Month Club subscriptions</a></li>
+                                <li><a href="#">Green Apple Apparel On Bonfire</a></li>
+                                <li><a href="#">Green Apple Tote Bags & More</a></li>
+                                <li><a href="#">Green Apple Zoom Backgrounds</a></li>
+                            </ul></li>
+                        <li><a href="#">Sell us your books</a></li>
+                        <li class="dropdown-trigger used"><a href="#">Used/consignment
+                            <img src="/icon/Polygon 24.svg"></img> </a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Consignment At Green Apple</a></li>
+                                <li><a href="#">Used Books</a></li>
+                            </ul></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+        </nav>
+        
+        <sidebar class="productListing-sidebar">
+            <section class="sidebar-a">
+                <h4 class="title title__section">Book of the month</h4>
+                <img class="margin" src="/images/Image 36.jpg" alt="book of the month">
+                <p>Each month, we select a brand new book that we love so much that we guarantee you'll love it too—and if you don't, we'll give you your money back. This month, we're recommending "Woman, Eating" by Claire Khonda.</p>
+                <div>                
+                    <h5 class="sidebar-price">$26.99</h5>
+                    <button class="addToCart">Add to cart</button>
+                </div>
+            </section>
+
+            <section class="sidebar-b">
+                <h4 class="title title__section">Join our mailing list!</h4>
+                <img class="margin" src="/images/Image 40.jpg" alt="News">
+                <form action="/action_page.php">
+                    <input type="email" id="query" name="q" placeholder="Email">
+                    <button>Submit</button>
+                </form> 
+            </section>
+
+            <section class="sidebar-c">
+                <h4 class="title title__section">Browse at our store</h4>
+                <div class="margin">
+                    <img class="storeImg" src="/images/iocn1.png" alt="store1">
+                    <p class="sidebar-heading">The Clement st. store<br>(415) 387-2272</p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>
+
+                <div> 
+                    <img class="storeImg" src="/images/icon3.png" alt="store2">
+                    <p class="sidebar-heading">The park store<br>
+                        (415) 742-5833</p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>
+
+                <div>
+                    <img class="storeImg" src="/images/icon2.png" alt="store3">
+                    <p class="sidebar-heading">The Fillmore store 
+                        <br>(415) 567-8027 </p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>  
+            </section>
+        </sidebar>
+
+        <main>
+            <section class="checkout-bar main-padding">
+                <h5 class="title">Check Out</h5>
+                <div class="flex-row">
+                    <a href="/html/shoppingCart.html"><img src="/icon/checkout1.svg"></a>
+                    <img src="/icon/checkout-highlight2.svg">
+                    <a href="/html/review.html"><img src="/icon/checkout3.svg"></a>
+                    <a href="/html/complete.html"><img src="/icon/checkout4.svg"></a>
+                </div>
+                <div class="flex-row">
+                    <p>Cart</p>
+                    <p>Check Out</p>
+                    <p>Review</p>
+                    <p>Complete</p>
+                </div>
+            </section>
+
+            <section class="checkout__cart-contents flex-column">
+                <h5>Cart Contents</h5>
+                <div>
+
+                </div>
+
+
+            </section>
+
+            <section class="productpage-information flex-column main-padding padding-section full-width">
+                <div class="full-width">
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo1()"> 
+                        0. Add store specials 
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+                    <div id="storeSpecials" class="dropdown-information flex-column drop padding-dropdown ">
+                        <div class="flex-row">
+                            <a href="#"><img src="/images/Image 65.svg"></a>
+                            <article >
+                                <a href="#"><h5>Green Apple Books Puzzle</h5></a><br>
+                                <p class="information grey">A beautiful 500-piece puzzle featuring an illustration of the one-and-only Green Apple Books on Clement!! </p>
+                            </article>
+                            <div>
+                                <h5>$19.9</h5>
+                                <a href="#"><img src="/icon/heart.svg"></a>
+                                <a href="#"><img src="/icon/Group 73854.svg"></a>
+                            </div>
+                        </div>
+                        <div class="flex-row">
+                            <a href="#"><img src="/images/Image 64.svg"></a>
+                            <article >
+                                <a href="#"><h5>Green Apple 35th Anniversary Tote</h5></a><br>
+                                <p class="grey information">Sure, our 35th Anniversary is 15 years removed, but better late than never to celebrate, right? </p>
+                            </article>
+                            <div>
+                                <h5>$14.9</h5>
+                                <a href="#"><img src="/icon/heart.svg"></a>
+                                <a href="#"><img src="/icon/Group 73854.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class=".btn">Next</button>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo2()">
+                        1. Customer information
+                        <img class="dropdown-arrow"src="/icon/Polygon 28.svg">
+                    </a>
+                    <div id="customerInfo" class="dropdown-information flex-column flex-between drop padding-dropdown align-centre">
+                        <p class="align-left information">Already a member?</p>
+                        <div>
+                            <h5 class="align-centre secondary-font">Sign in for Express Checkout</h5>
+                            <button>Sign in</button>
+                        </div>
+                        <p class="align-left information">Check out as a guest?</p>
+                        <form>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="abc@xyz.com">
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <button>Next</button>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo3()">
+                        2. Pick up option
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+                    <div id="pickUp" class="dropdown-information drop padding-dropdown">
+                        <form>
+                            <input type="checkbox" id="pickUpCheckBox" name="pickUpCheckBox">
+                            <label class="secondary-font" for="pickUpCheckBox">  In Store Pick-Up </label>
+                        </form>
+                        <p class="grey information">Your book may need to be ordered or transferred from another location. Please wait for email confirmation before visiting!</p>
+                        <h6 class="orange">* For books being purchased for Book Angels donations, please choose curbside pickup at Clement.</h6>
+                    </div>    
+                </div>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo4()">
+                        3. Delivery information
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="delivery" class="dropdown-information drop padding-dropdown flex-column justify-center">
+                        <form>
+                             <label for="fname">First name:</label><br>
+                             <input type="text" id="fname" name="fname"><br>
+                             <label for="lname">Last name:</label><br>
+                             <input type="text" id="lname" name="lname"><br>
+                             <label for="Street">Street:</label><br>
+                             <input type="text" id="street" name="street"><br>
+                             <label for="City">City:</label><br>
+                             <input type="text" id="city" name="city"><br>
+                             <label for="email">Email:</label><br>
+                             <input type="email" id="email" name="email"><br>
+                             <label for= "State">State / Province</label><br>
+                             <select id="state" name="State"><br>
+                                <option value="">LA</option>
+                                <option value="">california</option>
+                                <option value="">Others</option>
+                             </select><br>
+                             <label for= "State">Country</label><br>
+                             <select id="country" name="Country"><br>
+                                <option value="">USA</option>
+                                <option value="">International</option>
+                             </select><br>
+                             <label for="postcode">Postal Code:</label><br>
+                             <input type="number" id="postcode" name="postcode"><br>
+                             <label for="phone">Phone Number:</label><br>
+                             <input type="number" id="phone" name="phone"><br>
+                        </form>
+                    </div>
+                </div>
+                <button>Next</button>
+
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo5()">
+                        4. Ship as availability 
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="shipAvailability" class="dropdown-information drop padding-dropdown flex-column justify-center">
+                        <p class="information">When you choose to have each item in an order shipped as it becomes available, the shipping cost is likely to be higher than the calculated amount. You will be contacted regarding any additional cost.</p>
+                        <form>
+                            <input type="checkbox" id="shipAsAvail" name="shipAsAvail">
+                            <label class="title-checkbox secondary-font" for="shipAsAvail">  Ship As Available (Additional Charges May Apply) </label>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo6()">
+                        5. Calculate shipping cost
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="shippingCost" class="dropdown-information drop padding-dropdown flex-column justify-center">
+                        <p class="information">Shipping quotes are generated automatically when you enter your address and may be updated manually with the button below. Estimated delivery time does not account for USPS delays.</p>
+                        <button>Calculated Shipping</button>
+                        <h6 class="orange">* USPS Priority Mail (2-4 business days from CA): $14.50</h6>
+                    </div>
+                </div>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo7()">
+                        6. Payment Method
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="payment" class="dropdown-information drop padding-dropdown flex-column justify-center">
+                        <form>
+                            <input type="checkbox" id="creditCard" name="creditCard">
+                            <label class="title-checkbox secondary-font" for="creditCard"> Credit Card </label>
+                        </form>
+                        <div>
+                            <form>
+                                <label for="fname">Name on card</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                                <label for="number">Credit Card Number</label><br>
+                                <input type="number" min="0" max="16" id="number" name="number"><br>
+                                <label for="expire">Expiration Date</label><br>
+                                <input type="date" id="expire" name="expire"><br>
+                                <label for="cvv">CVV</label><br>
+                                <input type="number" id="cvv" name="cvv"><br>
+                            </form>  
+                            <form>
+                                <input type="checkbox" id="billing" name="billing">
+                                <label for="billing"> Billing address same as shipping address</label>
+                            </form>  
+                        </div>
+                        <form>
+                            <input type="checkbox" id="payPal" name="payPal">
+                            <label class="title-checkbox secondary-font" for="payPal"> PayPal </label>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo8()">
+                        8. Order comments
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="comments" class="dropdown-information drop padding-dropdown flex-column justify-center">
+                        <form action="/action_page.php">
+                            <p><label for="comments">Use this area for special instructions or questions regarding your order</label></p>
+                            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                            <br>
+                            <input type="submit" value="Submit">
+                          </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo8()">
+                        3. Delivery information
+                        <img class="dropdown-arrow" src="/icon/Polygon 28.svg">
+                    </a>
+
+                    <div id="delivery" class="dropdown-information drop padding-dropdown flex-column justify-center">
+
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+    </div>
+    <script src="/JS/main.js"></script>
+</body>
+<footer></footer>
+ 
+
+
+
+
+
+
+
+
+
+<!-- <label for= "deliveryInformation">State / Province</label>
 <select id="deliveryInformation" name="deliveryInformation">
     <option value=""></option>
-</select>
+</select> -->

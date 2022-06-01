@@ -1,78 +1,378 @@
+ul {list-style-type: none;
+    margin:0;
+    padding:0;}
 
 
+    .flex-column{            
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-row{            
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-between{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .align-left{
+        text-align: left;
+    }
+    .align-centre{
+        text-align: center;
+    }
+    .align-right{
+        text-align: right;
+    }
+
+    .justify-center{
+        justify-items: center;
+    }
+
+    .full-width{
+    width: 100%;
+}
+    
+.page{
+    background-image: url('../images/background2.jpg');
+    grid-auto-rows: minmax(100px, auto);}
 
 
-
-
-
-/*using rem to set the font size relate to the root element*/
-ul{
-    font-size: 0.8rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav > ul > li a {
+    display: block;
+    text-align: center;
+    padding:10px 1rem;
   }
 
+nav > ul > li{
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin:top center;}
 
-/*original overwrite setting*/
-p{
-    display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-    font-family: var(--main-font, sans-serif);
+.dropdown-trigger{
+    position: relative;
 }
 
-ul{
-    display:block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.dropdown-trigger > a >img{height: 5px;}
+
+
+
+.group-productlisting{
+    width: 100%;}
+
+.product-card{
+    max-width: 21%;
+    padding-top: 15px; }
+
+div.product-card.productlisting{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.product-card.productlisting > img{
+    max-height:18px;
+}
+
+.group-bookwelike{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    flex-wrap: wrap;}
+
+.group-bookwelike > .product-card > a >img{
+    width: 100%;
+    flex: 1 1 auto; 
+}
+
+.product-card-icons{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between; 
+    margin-top: 8px;}
+
+/* product page */
+.dropdown-arrow{
+    height: 8px;
+}
+
+img.heart{
+    max-height: 10px;
+
 }
 
 
-
-
-
-
-/*btn setting*/
-.btn{
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: brown;
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s;
-
-    padding: 1em 2em;
-    border-radius: 0.8em;
+footer{
+    height: 275px;
 }
 
-/*btn variation 
-<div class="btn  btn-small">small</div>*/
-.btn-small{
-    font-size: 12px;
+/* ul.dropdown-content.responsive { 
+    display: none;
+}*/
+
+
+    @media screen and (max-width: 960px){
+    
+
+    div.banner{display: none;}
+    
+    .logoRow{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; }
+        .searchBar{
+    display: flex;
+    align-items: flex-end;
+    max-height: 25px;}
+
+    .searchBar > form{
+    display: flex;
+    border: 2px #D0C6AC;
+    border-radius: 5em;
+    max-width: 600px;
+    align-items: flex-end;
+    gap: 5px;}
+
+    a.logo-image{display: none;}
+
+    .searchBar > form > a >img.search-icon{
+    max-height: 25px;
 }
 
-.btn-large{
-    font-size: 18px;
+    .icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 125px;
+    height: 30px;
+    }
+
+    ul.icons > li:nth-child(-n+2){
+    display: none;}
+
+    ul.icons > li >img{
+    height: 30px;
+    }
+
+    .page{
+        display:flex;
+        position: relative;
+        flex-direction: column;
+        height: auto;
+        width: 95%;}
+    
+
+    nav{
+        width: 100%;
+        position: relative;
+        text-align: center;}
+
+    .dropdown-content{
+        width: 70%;
+        left:15%;}
+    
+    sidebar.productListing-sidebar{
+        display: none;
+    }
+
+    sidebar{
+            width: 100%;
+        }
+    .sidebar-a > p{
+            display: none;}
+        
+    .sidebar-a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 40px;} 
+        
+    .sidebar-a > div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;}    
+        
+    .sidebar-b{
+            display: none;}
+        
+    .sidebar-c{
+            display: none;}
+        
+    main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width:100%;}
+
+    
+    .path{  
+    display: none;}
+
+    .main-a{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+    .main-a > img{
+    max-width: 100%;
+}
+    .main-a > p{
+    text-align: center;}
+
+    .see-all a {
+    text-align: end;
+}
+    .main-c{
+    display: none;
 }
 
+    .main-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
 
-/*status of button*/
-.btn:hover{
-    background-color: white;
-    color: brown;
-    border: 2px solid brown;
+    .group-bookwelike > .product-card{
+            max-width: 30%;
+            padding-top: 15px;
+            justify-self: center;  }
+    
+    .product-card > div > a > img{
+    max-height: 12px;}
+    
+    .main-b > h1{
+        display: flex;
+        justify-items: center;}
+
+/* product page */
+    .main_productPage{
+        display: flex;
+        width:100%;
 }
 
-.btn:disabled{
-    background-color: grey;
-    color: white;
-    border: 2px solid white;
+    .productpage-container{
+        flex-direction: column;   
+        justify-content: center;     
+    }
+
+    .book-intro{
+        display: none;
+    }
+
+    .productpage-information{
+        position: relative;
+        height: auto;
+    }
+
+    .productpage-information > div{
+        flex-direction: row-reverse;
+    }
+
+    .productpage-container > img{
+        display: block;
+        height: auto;
+        max-width: 100%;
+        margin:0 auto;}
+        
+     #storeAvail{
+            flex-direction: column;}
+    div.store-info{
+                flex-direction: row-reverse;}
+            
+                img.store-front{
+                    max-width: 80px;
+                }
+    #reviewTable{
+            height:100px;
+        }
+
+}
+
+    
+
+
+
+@media screen and (min-width: 960px){
+    
+
+    ul.icons > li > img{
+        max-height: 20px;}
+    
+    nav{
+        align-items: center;
+        grid-row:2/3;
+        grid-column:1/3;
+        margin-left: 5%;
+        margin-right: 5%;}
+
+    nav > ul{
+        max-width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;}
+    
+    .dropdown-content{
+        width: 150%;}
+    
+    main{
+    grid-row:3/4;
+    grid-column:2/3;
+    display: flex;
+    flex-direction: column;} 
+    
+    
+    .product-card > div > a > img{
+        max-height: 15px;}  
+    
+    .product-card-icons{bottom: 25px;}
+        
+
+
+
+    /* productpage*/
+    .productpage-book{ width: 60%;}
+
+    .productpage-book > div > span > img{
+        width: 100px;
+    }
+
+
+    .productpage-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;}
+
+    .productpage-container > img{
+        max-height: 300px; 
+    }
+
+    .productpage-btn{
+        justify-content: flex-end;
+    }
+
+    #storeAvail{
+        flex-direction: row;
+    }
+    .store-info{
+        flex-direction: row;
+    }
+
+    img.store-front{
+        max-width: 80px;
+    }
+
+
+    #reviewTable{
+        height:100px;
+    }
+
 }
