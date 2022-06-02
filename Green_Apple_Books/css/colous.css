@@ -74,6 +74,10 @@ nav > ul > li:hover {
 .dropdown-information{
     /* background-color: rgba(207, 82, 49, 0.1);*/background-color: rgba(43, 57, 42, 0.2);} 
 
+.cart-row, .checkout-cart{
+    background-color: rgba(207, 82, 49, 0.1);
+}
+
 .productpage-price > p:last-child{
     color: var(--orange);
 }
@@ -93,8 +97,14 @@ div.dropdown-information > a{
 .reviewer-information{
     border-top: 1px solid var(--orange);}
 
-    
+/* checkout page */
+.checkout-cart-row > span{
+    color: var(--pink);
+}
 
+.checkout-bar{
+    border-bottom: 1px solid var(--pink);
+}
 
 footer{
     background-color: var(--green);

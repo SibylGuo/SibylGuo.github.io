@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Apple Books</title>
+    <title>check out</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="/JS/main.js"></script>
@@ -156,16 +156,16 @@
             </section>
         </sidebar>
 
-        <main>
-            <section class="checkout-bar main-padding">
-                <h5 class="title">Check Out</h5>
-                <div class="flex-row">
-                    <a href="/html/shoppingCart.html"><img src="/icon/checkout1.svg"></a>
-                    <img src="/icon/checkout-highlight2.svg">
-                    <a href="/html/review.html"><img src="/icon/checkout3.svg"></a>
-                    <a href="/html/complete.html"><img src="/icon/checkout4.svg"></a>
+        <main class="checkout-page main-padding">
+            <h5 class="title align-centre">Check Out</h5>
+            <section class="checkout-bar full-width flex-column">
+                <div class="stage-number flex-row flex-between">
+                    <a class="zoom-up" href="/html/shoppingCart.html"><img src="/icon/checkout1.svg"></a>
+                    <a href="/html/checkOut.html"><img src="/icon/checkout-highlight2.svg"></a>
+                    <a class="zoom-up" href="/html/review.html"><img src="/icon/checkout3.svg"></a>
+                    <a class="zoom-up" href="/html/complete.html"><img src="/icon/checkout4.svg"></a>
                 </div>
-                <div class="flex-row">
+                <div class="stage-name flex-row flex-between ">
                     <p>Cart</p>
                     <p>Check Out</p>
                     <p>Review</p>
@@ -173,16 +173,51 @@
                 </div>
             </section>
 
-            <section class="checkout__cart-contents flex-column">
-                <h5>Cart Contents</h5>
-                <div>
+
+            <section class="flex-column full-width">
+                <h4 class="primary-font bold pink">Cart contents</h4><br>
+                <div class="checkout-cart cart-items full-width flex-column full-width">
+                    <div class="checkout-cart-row flex-row full-width flex-between padding-dropdown padding-cart-row flex-responsive">
+                        <span>1 x </span>
+                         <img class="cart-profile border__small" src="/images/Image 12.jpg">
+                         <article class="flex-center-vertically">
+                             <span><h5 class="cart-title">Sea of Tranquility: A novel (Hardcover)</h5><br>
+                             <p class="author-name">Emily St. John Mandel</p></span>
+                         </article>
+                         <span class="cart-price align-centre pink ui-font bold ">$24.00</span>
+                    </div>
+
+                    <div class="checkout-cart-row flex-row full-width flex-between padding-dropdown padding-cart-row">
+                        <span>1 x </span>
+                        <img class="cart-profile border__small" src="/images/Image 19.jpg">
+
+                        <article class="flex-center-vertically">
+                            <span><h5 class="cart-title">Where You Come From (Paperback)</h5><br>
+                            <p class="author-name">Sasa Stanisic, Damion Searls </p></span>
+                        </article>
+
+                        <span class="cart-price align-centre pink ui-font bold ">$26.00</span>
+                        
+                    </div>
+
+                    <div class="checkout-cart-row flex-row full-width flex-between padding-dropdown padding-cart-row">
+                        <span>1 x </span>
+                        <img class="cart-profile border__small" src="/images/Image 17.jpg">
+                        <article class="flex-center-vertically">
+                            <span><h5 class="cart-title">Sea of Tranquility: A novel (Hardcover)</h5><br>
+                            <p class="author-name">Emily St. John Mandel</p></span>
+                        </article>
+                        <span class="cart-price align-centre pink ui-font bold ">$22.00</span> 
+                    </div>
 
                 </div>
-
-
+                <div class="checkout-total">
+                    <strong class="cart-total-title pink">Subtotal:</strong>
+                    <span class="cart-total-price pink">$72.00</span>
+                </div>
             </section>
 
-            <section class="productpage-information flex-column main-padding padding-section full-width">
+            <section class="productpage-information flex-column padding-section full-width">
                 <div class="full-width">
                     <a  href="javascript:void(0);" class="productInfo checkout-info" onclick="toggledropinfo1()"> 
                         0. Add store specials 

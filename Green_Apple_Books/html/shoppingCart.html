@@ -1,11 +1,231 @@
 
-<filedset>
-    <legned>select items for checkout</legned>
-    <div>
-        <input type="checkbox" id="checkOutItems" name="interest" value="checkOutItems" checked>
-    </div>
-    <div class="shoppingCart">
-        <<img src="D:\coding folder\SibylGuo.github.io\Green_Apple_Books\icon\profile.svg" alt="profile"></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Apple Books</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="/JS/main.js"></script>
 
+</head>
+
+<body>
+    <div class="banner">
+                <h5>Free U.S. Meida mail on orders over $35 (Book only!)</h5>
     </div>
-</filedset>
+    <div class="page">
+        
+        <div class="logoRow">
+                    <a class="logo-image" href="homePage.html"><img class="logo-image" src="/icon/green apple logo.svg" alt="brand logo"></a>
+                    <a href="javascript:void(0);" class="hamburger" onclick="toggleResponsive()"><img class="logoRaw-menu" src="/icon/menu.svg"></a>
+                    <div class="searchBar">
+                        <form> 
+                        <input type="search field" id="query" name="q" placeholder="Search...">
+                        <a href=""><img class="search-icon" src="/icon/Icon awesome-search.svg"></a>
+                        </form>
+                    </div>
+        
+                    <ul class="icons">
+                        <li><img src="/icon/profile.svg" alt="profile"></li>
+                        <li><img src="/icon/heart.svg" alt="wish list"></li>
+                        <li><a href="shoppingCart.html"><img src="\icon\shopping-cart.svg" alt="shopping-cart"><span>0</span></a></li>
+                    </ul>
+        </div>
+                
+        <nav id="topNav" class="responsive">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li  class="dropdown-trigger About-us"><a href="#">About us</a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Location & Direction</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Our Newsletter</a></li>
+                                <li><a href="#">Why Green Apple</a></li>
+                                <li><a href="#">Green Apple In The News</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-trigger Event" ><a href="#">Event
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Event Calendar</a></li>
+                                <li><a href="#">Fundraising</a></li>
+                                <li><a href="#">Holding Event At Gab</a></li>
+                                <li><a href="#">Green Apple Event Youtue Channel</a></li>
+                            </ul></li>
+                        <li class="dropdown-trigger shop-for-books"><a href="#">Shop for books
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Monthly Bookseller's Choice</a></li>
+                                <li><a href="#">New Bookes We like</a></li>
+                                <li><a href="#">New In Paperback</a></li>
+                                <li><a href="#">Recent Bestsellers</a></li>
+                                <li><a href="#">Signed Books</a></li>
+                                <li><a href="#">Pre-odered Books</a></li>
+                                <li><a href="#">Book Recommendations By Subject</a></li>
+                                <li><a href="#">Kids And Young Adult Recommendations</a></li>
+                                <li><a href="#">Recent Award Winners</a></li>
+                                <li><a href="#">Reading List</a></li>
+                                <li><a href="#">Staff Favorites</a></li>
+                                <li><a href="#">Audiobooks</a></li>
+                                <li><a href="#">Bulk Orders</a></li>
+                                <li><a href="#">Used Books</a></li>
+                                <li><a href="#">Featured Used Books</a></li>
+                                <li><a href="#">Ebooks</a></li>
+                                <li><a href="#">UHS Spring 2022</a></li>
+                            </ul></li>
+                        <li class="dropdown-trigger gifts"><a href="#">Gift and subscription
+                            <img src="/icon/Polygon 24.svg"></img></a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Egift Code</a></li>
+                                <li><a href="#">Apple-A-Month Club subscriptions</a></li>
+                                <li><a href="#">Green Apple Apparel On Bonfire</a></li>
+                                <li><a href="#">Green Apple Tote Bags & More</a></li>
+                                <li><a href="#">Green Apple Zoom Backgrounds</a></li>
+                            </ul></li>
+                        <li><a href="#">Sell us your books</a></li>
+                        <li class="dropdown-trigger used"><a href="#">Used/consignment
+                            <img src="/icon/Polygon 24.svg"></img> </a>
+                            <ul class="dropdown-content responsive">
+                                <li><a href="#">Consignment At Green Apple</a></li>
+                                <li><a href="#">Used Books</a></li>
+                            </ul></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+        </nav>
+        
+        <sidebar class="productListing-sidebar">
+            <section class="sidebar-a">
+                <h4 class="title title__section">Book of the month</h4>
+                <img class="margin" src="/images/Image 36.jpg" alt="book of the month">
+                <p>Each month, we select a brand new book that we love so much that we guarantee you'll love it too—and if you don't, we'll give you your money back. This month, we're recommending "Woman, Eating" by Claire Khonda.</p>
+                <div>                
+                    <h5 class="sidebar-price">$26.99</h5>
+                    <button class="addToCart">Add to cart</button>
+                </div>
+            </section>
+
+            <section class="sidebar-b">
+                <h4 class="title title__section">Join our mailing list!</h4>
+                <img class="margin" src="/images/Image 40.jpg" alt="News">
+                <form action="/action_page.php">
+                    <input type="email" id="query" name="q" placeholder="Email">
+                    <button>Submit</button>
+                </form> 
+            </section>
+
+            <section class="sidebar-c">
+                <h4 class="title title__section">Browse at our store</h4>
+                <div class="margin">
+                    <img class="storeImg" src="/images/iocn1.png" alt="store1">
+                    <p class="sidebar-heading">The Clement st. store<br>(415) 387-2272</p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>
+
+                <div> 
+                    <img class="storeImg" src="/images/icon3.png" alt="store2">
+                    <p class="sidebar-heading">The park store<br>
+                        (415) 742-5833</p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>
+
+                <div>
+                    <img class="storeImg" src="/images/icon2.png" alt="store3">
+                    <p class="sidebar-heading">The Fillmore store 
+                        <br>(415) 567-8027 </p>
+                    <ul class="sidebar-icon">
+                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
+                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
+                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                    </ul>
+                </div>  
+            </section>
+        </sidebar>
+
+        <main class="flex-column">
+            <section class="main-padding flex-column full-width">
+                <a href="">Select All</a>
+                <div class="cart-items full-width flex-column full-width">
+                    <div class="cart-row flex-row full-width flex-between padding-dropdown padding-cart-row flex-responsive">
+                            <input type="checkbox" id="checkOutItems" name="interest" value="checkOutItems" checked>
+                            <img class="cart-profile border__small" src="/images/Image 12.jpg">
+                            <article class="flex-column flex-between">
+                                <span><h5 class="cart-title">Sea of Tranquility: A novel (Hardcover)</h5><br>
+                                <p class="author-name">Emily St. John Mandel</p></span>
+                                <input class="cart-quantity-input border__large" type="number" value="1">
+                            </article>
+                            <img class="cart-rating justify-self-center" src="/icon/Group 55.svg">
+                            <span class="cart-price align-centre pink ui-font bold ">$24.00</span>
+                            <button class=" btn-danger"><img class="cart-bin" src="/icon/Icon metro-bin.svg"></button>
+                    </div>
+
+                    <div class="cart-row flex-row full-width flex-between padding-dropdown padding-cart-row">
+                        <input type="checkbox" id="checkOutItems" name="interest" value="checkOutItems" checked>
+                        <img class="cart-profile border__small" src="/images/Image 19.jpg">
+                        <article class="flex-column flex-between">
+                            <span><h5 class="cart-title">Where You Come From (Paperback)</h5><br>
+                            <p class="author-name">Sasa Stanisic, Damion Searls </p></span>
+                            <input class="cart-quantity-input border__large" type="number" value="1">
+                        </article>
+                        <img class="cart-rating justify-self-center" src="/icon/Group 55.svg">
+                        <span class="cart-price align-centre pink ui-font bold ">$26.00</span>
+                        <button class=" btn-danger"><img class="cart-bin" src="/icon/Icon metro-bin.svg"></button>
+                    </div>
+
+                    <div class="cart-row flex-row full-width flex-between padding-dropdown padding-cart-row">
+                        <input type="checkbox" id="checkOutItems" name="interest" value="checkOutItems" checked>
+                        <img class="cart-profile border__small" src="/images/Image 17.jpg">
+                        <article class="flex-column flex-between">
+                            <span><h5 class="cart-title">Sea of Tranquility: A novel (Hardcover)</h5><br>
+                            <p class="author-name">Emily St. John Mandel</p></span>
+                            <input class="cart-quantity-input border__large" type="number" value="1">
+                        </article>
+                        <img class="cart-rating justify-self-center" src="/icon/Group 55.svg">
+                        <span class="cart-price align-centre pink ui-font bold ">$22.00</span>
+                        <button class=" btn-danger"><img class="cart-bin" src="/icon/Icon metro-bin.svg"></button>
+                    </div>
+
+                </div>
+                
+                <div class="flex-row flex-between">
+                    <h6 class="selected-item orange">3 items Selected </h6>
+                    <div class="cart-total">
+                        <strong class="cart-total-title pink">Subtotal:</strong>
+                        <span class="cart-total-price">$72.00</span>
+                    </div>
+                </div>
+
+                <div class="flex-column align-right"> 
+                    <button>Check Out</button>
+                    <a href="/html/homePage.html"><img src="/icon/Icon material-shopping-cart.svg"> Keep shopping</span></a>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script src="/JS/main.js"></script>
+</body>
+<footer></footer>
+
+
+
+
+
+
+
+
+

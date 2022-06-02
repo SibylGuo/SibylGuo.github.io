@@ -50,6 +50,9 @@ h6{font-size: 0.7rem; /*12px*/}
 } 
 /*use at least 16px for body/input*/
 
+.bold{
+    font-weight: bold;
+}
 
 .primary-font{
     font-family: var(--primary-font);
@@ -66,6 +69,11 @@ nav > ul > li a {
     font-size: 1rem;
     text-decoration: none;
     font-weight: bold;}
+
+.shoppingCart-amount{
+    text-decoration: none;
+    font-weight: bolder;
+}
 
 .dropdown-content li >a{
     font-family: var(--primary-font);
@@ -167,5 +175,24 @@ a.productInfo{
     font-family: var(--UI-font);
     font-size: 1rem;
     font-weight: 500;
+
+}
+
+.cart-title{
+    font-family: var(--UI-font);
+    font-size: 1rem;
+color: var(--pink);
+}
+
+/* checkout page */
+.checkout-cart-row > span{
+    font-family: var(--UI-font);
+    font-weight: bold;
+}
+
+/* review */
+.coupon{
+    font-family:var(--secondary-font);
+    var(--font-size-xs);
 
 }

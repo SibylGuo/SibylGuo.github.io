@@ -9,14 +9,18 @@
     --space-xxl: calc(5.25 * var(--space-unit));/*84px */
 }
 
-.main-padding{
-    padding-left: 12.5%;
-    padding-right: 12.5%;}  
+
 
 .padding-dropdown{
         padding-top: var(--space-xs);
         padding-bottom: var(--space-xs);
     }
+.padding-cart-row{
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+    
+
 
 .padding-section{
     padding-top: var(--space-lg);
@@ -48,7 +52,9 @@ img.heart{padding-left: var(--space-xxs);}
     padding-right: var(--space-xxs);
 }
 
-
+.main-padding{
+    padding-left: 5%;
+    padding-right: 5%;}  
 
 
 .dropdown-information{
@@ -67,13 +73,44 @@ img.heart{padding-left: var(--space-xxs);}
     padding-top:var(--space-xxs);
 }
 
+/* shopping cart */
+.cart-items{
+    gap:var(--space-sm)
+}
 
+.cart-row{
+    gap:var(--space-sm)
+}
 
+.stage-number {
+    padding-right: 19px;
+}
+.stage-name {
+    padding-left: 5px;
+}
+
+/* checkout */
+main.checkout-page{
+    padding-top: var(--space-xl);
+    flex-direction: column;
+    gap:var(--space-lg)
+}
+
+.checkout-bar{
+    padding-bottom: var(--space-sm);}
+
+/* review */
+.coupon-input{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+
+}
 
 @media screen and (max-width: 960px) {
     :root{
         --space-unit: 1em;
     }
+
 
     .logoRow{
         margin-left: 5%;
@@ -100,6 +137,7 @@ img.heart{padding-left: var(--space-xxs);}
 
     .group-bookwelike > .product-card > a > img{
     margin-bottom: var(--space-xs);}
+
 }
 
 
@@ -107,6 +145,10 @@ img.heart{padding-left: var(--space-xxs);}
 
 
 @media screen and (min-width: 960px) {
+    .main-padding{
+        padding-left: 12.5%;
+        padding-right: 12.5%;}  
+
     :root{
         --space-unit: 1.25em;
     }

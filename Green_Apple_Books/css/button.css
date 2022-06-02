@@ -1,16 +1,36 @@
+input[type="submit"], input[type="reset"] {
+	background: none;
+	color: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 
+input, textarea, select{
+    border-radius:0.01em;
+    border:0px #D3C1B3 solid;
+    background-color: white;
+    vertical-align: middle; /*text alignment*/
+    }
 
 /*btn setting*/
 .btn{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: brown;
+    font-family: var(--UI-font);
+    font-weight: bold;
+    background-color: var(--orange);
     text-decoration: none;
-    color: white;
+    padding: 4px 16px 6px 16px;
+    text-align: center;
+    color: var(--pink);
+    font-size: 16px;
+    margin: 4px 2px;
     transition: all 0.3s;
-
-    padding: 1em 2em;
-    border-radius: 0.8em;
+    border: none;
+    border-radius: 0.5em;
+    line-height:16px;
 }
 
 
@@ -21,19 +41,35 @@
 }
 
 .btn-large{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
 /*status of button*/
-.btn:hover{
-    background-color: white;
-    color: brown;
-    border: 2px solid brown;
-}
 
 .btn:disabled{
-    background-color: grey;
+    background-color: var(--grey);
     color: white;
     border: 2px solid white;
+}
+
+.btn-danger{
+    background-color: Transparent;
+    border: none;  
+    height: 20px;
+    width: 20px;
+    
+
+}
+
+.btn:hover,
+button:focus {
+    background: white;
+    border: 2px solid var(--orange);
+    color: var(--orange)
+}
+
+
+.btn:active {
+    transform: scale(0.99);
 }

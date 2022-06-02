@@ -4,6 +4,7 @@
 @import url("/css/newstyle.css");
 @import url("/css/spacing.css");
 @import url("/css/animation.css");
+@import url("/css/button.css");
 @import url("/css/layout.css") screen and (min-width: 960px);
 
 
@@ -23,12 +24,7 @@ body{
     height:100%;}
 
 /*styling the text input*/
-input, textarea, select{
-    border-radius: 9px;
-    border:2px #D3C1B3 solid;
-    background-color: white;
-    vertical-align: middle; /*text alignment*/
-    }
+
 
 /* *{transition: all 1.5s ease-in-out;} */
 
