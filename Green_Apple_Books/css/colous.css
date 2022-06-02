@@ -106,9 +106,22 @@ div.dropdown-information > a{
     border-bottom: 1px solid var(--pink);
 }
 
+/* review */
+.review-total{
+    border-top: 1px solid var(--grey);
+}
+
+/* complete */
+.complete-message{ 
+    border-bottom: 1px solid var(--grey);
+}
+
+
 footer{
     background-color: var(--green);
 }
+
+
 
 
 @media screen and (max-width: 960px){

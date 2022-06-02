@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Apple Books</title>
+    <title>Shopping Cart</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="/JS/main.js"></script>
@@ -156,9 +156,26 @@
             </section>
         </sidebar>
 
-        <main class="flex-column">
-            <section class="main-padding flex-column full-width">
-                <a href="">Select All</a>
+        <main class="main-shoppingCart main-padding flex-column">
+
+            <h5 class="title align-centre">Shopping Cart</h5>
+            <section class="checkout-bar full-width flex-column ">
+                <div class="stage-number flex-row flex-between">
+                    <a href="/html/shoppingCart.html"><img src="/icon/stage 1 highlight.svg"></a>
+                    <a class="zoom-up" href="/html/checkOut.html"><img src="/icon/Group 74.svg"></a>
+                    <a class="zoom-up" href="/html/review.html"><img src="/icon/checkout3.svg"></a>
+                    <a class="zoom-up" href="/html/complete.html"><img src="/icon/checkout4.svg"></a>
+                </div>
+                <div class="stage-name flex-row flex-between ">
+                    <p>Cart</p>
+                    <p>Check Out</p>
+                    <p>Review</p>
+                    <p>Complete</p>
+                </div>
+            </section>
+
+            <section class=" flex-column full-width small-gap">
+                <a href="" class="hyperlink">Select All</a>
                 <div class="cart-items full-width flex-column full-width">
                     <div class="cart-row flex-row full-width flex-between padding-dropdown padding-cart-row flex-responsive">
                             <input type="checkbox" id="checkOutItems" name="interest" value="checkOutItems" checked>
@@ -202,19 +219,63 @@
                 </div>
                 
                 <div class="flex-row flex-between">
-                    <h6 class="selected-item orange">3 items Selected </h6>
+                    <h5 class="selected-item orange">3 items Selected </h5>
                     <div class="cart-total">
-                        <strong class="cart-total-title pink">Subtotal:</strong>
-                        <span class="cart-total-price">$72.00</span>
+                        <strong class="cart-total-title bold pink">Subtotal:</strong>
+                        <span class="cart-total-price  pink">$72.00</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="flex-column justify-content-right full-width button-set">
+                <button class="checkout-button btn btn-align-right ">Check Out</button>
+                <div class="align-right"><a class="hyperlink" href="/html/homePage.html"><img class="icon-shoppingCart" src="/icon/shopping-cart.svg">Keep shopping</a>
+                </div>
+            </div>
+
+            <section class="book-recommendation full-width padding-section">
+                <h5 class="title">You might also like</h5>
+                <div class= "group-bookwelike">
+                    <div class="product-card">
+                        <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 25.jpg"></a>
+                        <img src="/icon/Group 55.svg"><br>
+                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="product-font price-product-listing"> $27.99</h5>
+
+                    </div>
+
+                    <div class="product-card">
+                        <a href="/html/productPage.html"><img class="shodowing" src="/images/Group 58.jpg"></a>
+                        <img src="/icon/Group 55.svg"><br>
+                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="product-font price-product-listing"> $27.99</h5>
+
+                    </div>
+
+
+                    <div class="product-card">
+                        <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 46.jpg"></a>
+                        <img src="/icon/Group 55.svg"><br>
+                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="product-font price-product-listing"> $27.99</h5>
+
+                    </div>
+
+                    <div class="product-card">
+                        <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 45.jpg"></a>
+                        <img src="/icon/Group 55.svg"><br>
+                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>            
+                        <h5 class="product-font price-product-listing"> $27.99</h5>
                     </div>
                 </div>
 
-                <div class="flex-column align-right"> 
-                    <button>Check Out</button>
-                    <a href="/html/homePage.html"><img src="/icon/Icon material-shopping-cart.svg"> Keep shopping</span></a>
-                </div>
 
             </section>
+
+            <section class="main-c full-width ">
+                <img src="/images/Image 44.jpg">
+            </section>
+
         </main>
     </div>
     <script src="/JS/main.js"></script>

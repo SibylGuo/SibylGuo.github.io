@@ -193,6 +193,6 @@ color: var(--pink);
 /* review */
 .coupon{
     font-family:var(--secondary-font);
-    var(--font-size-xs);
+    font-size:var(--font-size-sm);
 
 }

@@ -41,8 +41,13 @@ ul {list-style-type: none;
     }
     .justify-self-center{
     justify-self: center;}
+
     .justify-content-center{
         justify-content: center;}
+
+    .justify-content-right{
+        justify-content: right;
+    }
 
     .full-width{
     width: 100%;}
@@ -52,6 +57,9 @@ ul {list-style-type: none;
         justify-content: center;
         flex-direction: column;}
     
+    
+    a.hyperlink{
+        display:inline-block;}
 
 
     
