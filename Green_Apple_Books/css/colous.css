@@ -54,7 +54,9 @@ nav > ul > li:hover {
     color: var(--orange);}
 
 .dropdown-content.responsive > li:hover {
-    background-color: rgb(58, 53, 53);}
+    /* background-color: rgb(58, 53, 53); */
+    background-color: var(--green);
+}
 
     
 .dropdown-content.responsive > li >a:hover {
@@ -71,10 +73,12 @@ nav > ul > li:hover {
     border-radius: 11px;}
 
 
+
+
 .dropdown-information{
     /* background-color: rgba(207, 82, 49, 0.1);*/background-color: rgba(43, 57, 42, 0.2);} 
 
-.cart-row, .checkout-cart{
+.cart-row, .checkout-cart, .checkout-dropdwon{
     background-color: rgba(207, 82, 49, 0.1);
 }
 
@@ -92,6 +96,10 @@ div.dropdown-information > a{
         color: var(--pink);}
 
 
+/* Homepage */
+.product-font.price-product-listing{
+    color: var(--pink);
+}
 
 /*product page*/
 .reviewer-information{

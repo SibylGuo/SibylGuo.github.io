@@ -14,143 +14,148 @@
 
 <body>
     <div class="banner">
-                <h5>Free U.S. Meida mail on orders over $35 (Book only!)</h5>
+        <p class="banner-text bold">Free U.S. Meida mail on orders over $35 (Book only!)</p>
     </div>
     <div class="page">
-        
-        <div class="logoRow">
-                    <a class="logo-image" href="homePage.html"><img class="logo-image" src="/icon/green apple logo.svg" alt="brand logo"></a>
-                    <a href="javascript:void(0);" class="hamburger" onclick="toggleResponsive()"><img class="logoRaw-menu" src="/icon/menu.svg"></a>
-                    <div class="searchBar">
-                        <form> 
-                        <input type="search field" id="query" name="q" placeholder="Search...">
-                        <a href=""><img class="search-icon" src="/icon/Icon awesome-search.svg"></a>
-                        </form>
-                    </div>
-        
-                    <ul class="icons">
-                        <li><img src="/icon/profile.svg" alt="profile"></li>
-                        <li><img src="/icon/heart.svg" alt="wish list"></li>
-                        <li><a href="shoppingCart.html"><img src="\icon\shopping-cart.svg" alt="shopping-cart"><span>0</span></a></li>
-                    </ul>
+        <div class="logoRow flex-row flex-between">
+            <a class="logo-image" href="/html/homePage.html"><img class="logo-image" src="/icon/green apple logo.svg" alt="brand logo"></a>
+            <a href="javascript:void(0);" class="hamburger" onclick="toggleResponsive()"><img class="logoRaw-menu" src="/icon/menu.svg"></a>
+            
+            <div class="searchBar">
+                <form> 
+                <input type="search field" id="query" name="q" placeholder="Search...">
+                <a href=""><img class="search-icon zoom-up" src="/icon/Icon awesome-search.svg"></a>
+                </form>
+            </div>
+
+            <ul class="icons">
+                <li><a href="#"><img class="zoom-up" src="/icon/profile.svg" alt="profile"></a></li>
+                <li><a href="#"><img class="zoom-up" src="/icon/heart.svg" alt="wish list"></a></li>
+                <li class="icon-3 ">
+                    <a href="shoppingCart.html">
+                        <img class="icon-shoppingCart zoom-up" src="\icon\shopping-cart.svg" alt="shopping-cart">
+                        <span class="cart shoppingCart-amount orange">0</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-                
-        <nav id="topNav" class="responsive">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li  class="dropdown-trigger About-us"><a href="#">About us</a>
-                            <ul class="dropdown-content responsive">
-                                <li><a href="#">Location & Direction</a></li>
-                                <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Our Newsletter</a></li>
-                                <li><a href="#">Why Green Apple</a></li>
-                                <li><a href="#">Green Apple In The News</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-trigger Event" ><a href="#">Event
-                            <img src="/icon/Polygon 24.svg"></img></a>
-                            <ul class="dropdown-content responsive">
-                                <li><a href="#">Event Calendar</a></li>
-                                <li><a href="#">Fundraising</a></li>
-                                <li><a href="#">Holding Event At Gab</a></li>
-                                <li><a href="#">Green Apple Event Youtue Channel</a></li>
-                            </ul></li>
-                        <li class="dropdown-trigger shop-for-books"><a href="#">Shop for books
-                            <img src="/icon/Polygon 24.svg"></img></a>
-                            <ul class="dropdown-content responsive">
-                                <li><a href="#">Monthly Bookseller's Choice</a></li>
-                                <li><a href="#">New Bookes We like</a></li>
-                                <li><a href="#">New In Paperback</a></li>
-                                <li><a href="#">Recent Bestsellers</a></li>
-                                <li><a href="#">Signed Books</a></li>
-                                <li><a href="#">Pre-odered Books</a></li>
-                                <li><a href="#">Book Recommendations By Subject</a></li>
-                                <li><a href="#">Kids And Young Adult Recommendations</a></li>
-                                <li><a href="#">Recent Award Winners</a></li>
-                                <li><a href="#">Reading List</a></li>
-                                <li><a href="#">Staff Favorites</a></li>
-                                <li><a href="#">Audiobooks</a></li>
-                                <li><a href="#">Bulk Orders</a></li>
-                                <li><a href="#">Used Books</a></li>
-                                <li><a href="#">Featured Used Books</a></li>
-                                <li><a href="#">Ebooks</a></li>
-                                <li><a href="#">UHS Spring 2022</a></li>
-                            </ul></li>
-                        <li class="dropdown-trigger gifts"><a href="#">Gift and subscription
-                            <img src="/icon/Polygon 24.svg"></img></a>
-                            <ul class="dropdown-content responsive">
-                                <li><a href="#">Gift Cards</a></li>
-                                <li><a href="#">Egift Code</a></li>
-                                <li><a href="#">Apple-A-Month Club subscriptions</a></li>
-                                <li><a href="#">Green Apple Apparel On Bonfire</a></li>
-                                <li><a href="#">Green Apple Tote Bags & More</a></li>
-                                <li><a href="#">Green Apple Zoom Backgrounds</a></li>
-                            </ul></li>
-                        <li><a href="#">Sell us your books</a></li>
-                        <li class="dropdown-trigger used"><a href="#">Used/consignment
-                            <img src="/icon/Polygon 24.svg"></img> </a>
-                            <ul class="dropdown-content responsive">
-                                <li><a href="#">Consignment At Green Apple</a></li>
-                                <li><a href="#">Used Books</a></li>
-                            </ul></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-        </nav>
         
+        <nav id="topNav" class="responsive">
+            <ul>
+                <li><a href="/html/homePage.html">Home</a></li>
+                <li  class="dropdown-trigger About-us"><a href="#">About us</a>
+                    <ul class="dropdown-content responsive">
+                        <li><a href="#">Location & Direction</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Our Newsletter</a></li>
+                        <li><a href="#">Why Green Apple</a></li>
+                        <li><a href="#">Green Apple In The News</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-trigger Event" ><a href="#">Event
+                    <img src="/icon/Polygon 24.svg"></img></a>
+                    <ul class="dropdown-content responsive">
+                        <li><a href="#">Event Calendar</a></li>
+                        <li><a href="#">Fundraising</a></li>
+                        <li><a href="#">Holding Event At Gab</a></li>
+                        <li><a href="#">Green Apple Event Youtue Channel</a></li>
+                    </ul></li>
+                <li class="dropdown-trigger shop-for-books"><a href="#">Shop for books
+                    <img src="/icon/Polygon 24.svg"></img></a>
+                    <ul class="dropdown-content responsive">
+                        <li><a href="#">Monthly Bookseller's Choice</a></li>
+                        <li><a href="#">New Bookes We like</a></li>
+                        <li><a href="#">New In Paperback</a></li>
+                        <li><a href="#">Recent Bestsellers</a></li>
+                        <li><a href="#">Signed Books</a></li>
+                        <li><a href="#">Pre-odered Books</a></li>
+                        <li><a href="#">Book Recommendations By Subject</a></li>
+                        <li><a href="#">Kids And Young Adult Recommendations</a></li>
+                        <li><a href="#">Recent Award Winners</a></li>
+                        <li><a href="#">Reading List</a></li>
+                        <li><a href="#">Staff Favorites</a></li>
+                        <li><a href="#">Audiobooks</a></li>
+                        <li><a href="#">Bulk Orders</a></li>
+                        <li><a href="#">Used Books</a></li>
+                        <li><a href="#">Featured Used Books</a></li>
+                        <li><a href="#">Ebooks</a></li>
+                        <li><a href="#">UHS Spring 2022</a></li>
+                    </ul></li>
+                <li class="dropdown-trigger gifts"><a href="#">Gift and subscription
+                    <img src="/icon/Polygon 24.svg"></img></a>
+                    <ul class="dropdown-content responsive">
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Egift Code</a></li>
+                        <li><a href="#">Apple-A-Month Club subscriptions</a></li>
+                        <li><a href="#">Green Apple Apparel On Bonfire</a></li>
+                        <li><a href="#">Green Apple Tote Bags & More</a></li>
+                        <li><a href="#">Green Apple Zoom Backgrounds</a></li>
+                    </ul></li>
+                <li><a href="#">Sell us your books</a></li>
+                <li class="dropdown-trigger used"><a href="#">Used/consignment
+                    <img src="/icon/Polygon 24.svg"></img> </a>
+                    <ul class="dropdown-content responsive">
+                        <li><a href="#">Consignment At Green Apple</a></li>
+                        <li><a href="#">Used Books</a></li>
+                    </ul></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+
         <sidebar class="productListing-sidebar">
             <section class="sidebar-a">
                 <h4 class="title title__section">Book of the month</h4>
-                <img class="margin" src="/images/Image 36.jpg" alt="book of the month">
-                <p>Each month, we select a brand new book that we love so much that we guarantee you'll love it too—and if you don't, we'll give you your money back. This month, we're recommending "Woman, Eating" by Claire Khonda.</p>
-                <div>                
-                    <h5 class="sidebar-price">$26.99</h5>
-                    <button class="addToCart">Add to cart</button>
+                <a href="/html/productPage.html"><img class="shodowing sidea-img margin border__small" src="/images/Image 36.jpg" alt="book of the month"></a>
+                <h6 class="sidebar-a-font pink">Each month, we select a brand new book that we love so much that we guarantee you'll love it too—and if you don't, we'll give you your money back. This month, we're recommending "Woman, Eating" by Claire Khonda.</h6>
+                <div class="flex-row flex-between">                
+                    <p class=" align-centre bold xsmall-padding-top">$26.99</p>
+                    <button onclick="addedToCart()" class="btn btn_addtoCart ">Add to cart</button>
                 </div>
             </section>
 
             <section class="sidebar-b">
                 <h4 class="title title__section">Join our mailing list!</h4>
                 <img class="margin" src="/images/Image 40.jpg" alt="News">
-                <form action="/action_page.php">
-                    <input type="email" id="query" name="q" placeholder="Email">
-                    <button>Submit</button>
+                <form class="flex-row flex-between justify-center">
+                    <input class="xsmall-padding-top img-centre"type="email" id="query" name="q" placeholder="Email">
+                    <button class="btn btn_Submit ">Add</button>
                 </form> 
             </section>
 
             <section class="sidebar-c">
                 <h4 class="title title__section">Browse at our store</h4>
                 <div class="margin">
-                    <img class="storeImg" src="/images/iocn1.png" alt="store1">
-                    <p class="sidebar-heading">The Clement st. store<br>(415) 387-2272</p>
+                    <div class="align-centre "><a class="a.hyperlink" href="#"><img class="storeImg shodowing" src="/images/iocn1.png" alt="store1"></a></div>
+                    <a href="#" class="hyperlink sidebar-heading">The Clement st. store<br>(415) 387-2272</a>
                     <ul class="sidebar-icon">
-                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
-                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                        <a href="#"><img class="zoom-up" src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon feather-youtube.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo"></a>
                     </ul>
                 </div>
 
                 <div> 
-                    <img class="storeImg" src="/images/icon3.png" alt="store2">
-                    <p class="sidebar-heading">The park store<br>
-                        (415) 742-5833</p>
+                    <div class="align-centre "><a class="a.hyperlink" href="#"><img class="storeImg shodowing" src="/images/icon3.png" ></a></div>
+                    <a href="#" class="hyperlink sidebar-heading">The park store<br>
+                        (415) 742-5833</a>
                     <ul class="sidebar-icon">
-                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
-                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                        <a href="#"><img class="zoom-up" src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon feather-youtube.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo"></a>
                     </ul>
                 </div>
 
                 <div>
-                    <img class="storeImg" src="/images/icon2.png" alt="store3">
-                    <p class="sidebar-heading">The Fillmore store 
-                        <br>(415) 567-8027 </p>
+                    <div class="align-centre "><a class="a.hyperlink" href="#"><img class="storeImg shodowing" src="/images/icon2.png" alt="store3" ></a></div>
+                    <a href="#" class="hyperlink sidebar-heading">The Fillmore store 
+                        <br>(415) 567-8027 </a>
                     <ul class="sidebar-icon">
-                        <img src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo">
-                        <img src="/icon/Icon feather-youtube.svg" alt="instagram logo">
-                        <img src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo">
+                        <a href="#"><img class="zoom-up" src="/icon/Icon ionic-logo-instagram.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-facebook-square.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon feather-youtube.svg" alt="instagram logo"></a>
+                        <a href="#"><img class="zoom-up" src="/icon/Icon awesome-pinterest-square.svg" alt="instagram logo"></a>
                     </ul>
                 </div>  
             </section>
@@ -227,48 +232,50 @@
                 </div>
             </section>
 
-            <div class="flex-column justify-content-right full-width button-set">
-                <button class="checkout-button btn btn-align-right ">Check Out</button>
-                <div class="align-right"><a class="hyperlink" href="/html/homePage.html"><img class="icon-shoppingCart" src="/icon/shopping-cart.svg">Keep shopping</a>
+            <div class="flex-column full-width button-set">
+                <a class="checkout-button btn-position " href="/html/checkOut.html"><button class="checkout-button btn btn-position">Check Out</button></a>
+                <div class="text-position"><a class="hyperlink" href="/html/homePage.html"><img class="icon-shoppingCart" src="/icon/shopping-cart.svg">Keep shopping</a>
                 </div>
             </div>
 
             <section class="book-recommendation full-width padding-section">
                 <h5 class="title">You might also like</h5>
-                <div class= "group-bookwelike">
-                    <div class="product-card">
+                <div class= "book-recomm group-bookwelike">
+                    <div class="flex-center-vertically"><a class="bookRecom-arrow inline-block" href="/html/productListing.html"><img src="/icon/left arrow.svg"></a></div><br>
+                    
+                    <div class="product-card flex-column">
                         <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 25.jpg"></a>
-                        <img src="/icon/Group 55.svg"><br>
-                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
-                        <h5 class="product-font price-product-listing"> $27.99</h5>
+                        <img  class="bookRecom-rating img-centre line-botton-padding"  src="/icon/Group 55.svg">
+                        <a  class="hyperlink product-font title-product line-botton-padding" href="html/productPage.html"><p class="hyperlink small-font product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="orange product-font price-product-listing"> $27.99</h5>
 
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card flex-column">
                         <a href="/html/productPage.html"><img class="shodowing" src="/images/Group 58.jpg"></a>
-                        <img src="/icon/Group 55.svg"><br>
-                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
-                        <h5 class="product-font price-product-listing"> $27.99</h5>
+                        <img  class="bookRecom-rating img-centre line-botton-padding"  src="/icon/Group 55.svg">
+                        <a  class="product-font title-product line-botton-padding" href="html/productPage.html"><p class="hyperlink small-font product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="orange product-font price-product-listing"> $27.99</h5>
 
                     </div>
 
 
-                    <div class="product-card">
+                    <div class="product-card flex-column last-two">
                         <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 46.jpg"></a>
-                        <img src="/icon/Group 55.svg"><br>
-                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
-                        <h5 class="product-font price-product-listing"> $27.99</h5>
+                        <img  class="bookRecom-rating img-centre line-botton-padding"  src="/icon/Group 55.svg">
+                        <a  class="product-font title-product line-botton-padding" href="html/productPage.html"><p class="hyperlink small-font product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>
+                        <h5 class="orange product-font price-product-listing "> $27.99</h5>
 
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card flex-column last-two">
                         <a href="/html/productPage.html"><img class="shodowing" src="/images/Image 45.jpg"></a>
-                        <img src="/icon/Group 55.svg"><br>
-                        <a  class="product-font title-product" href="html/productPage.html"><p class="product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>            
-                        <h5 class="product-font price-product-listing"> $27.99</h5>
-                    </div>
+                        <img class="bookRecom-rating img-centre line-botton-padding" src="/icon/Group 55.svg">
+                        <a  class="product-font title-product line-botton-padding" href="html/productPage.html"><p class="hyperlink small-font product-font">Beasts of a Little Land: A Novel<br>(Hardcover)</p></a>            
+                        <h5 class="orange product-font price-product-listing"> $27.99</h5>
+                    </div><br>
+                    <div class="flex-center-vertically"><a class="bookRecom-arrow inline-block" href="/html/productListing.html"><img src="/icon/right arrow.svg"></a></div>
                 </div>
-
 
             </section>
 

@@ -11,33 +11,12 @@
 
 
 
-.padding-dropdown{
-        padding-top: var(--space-xs);
-        padding-bottom: var(--space-xs);
-    }
-.padding-cart-row{
-    padding-left: var(--space-sm);
-    padding-right: var(--space-sm);
-}
-    
-
-.padding-section{
-    padding-top: var(--space-lg);
-    padding-bottom: var(--space-lg);}
-
-.button-set{
-    gap: var(--space-xs);
-}
-
-.small-gap{
-    gap:var(--space-xs);
-}
-
-.large-gap{
-    gap: var(--space-xl);
-}
 
 
+.title{
+    padding-bottom: var(--space-xs);}
+
+/* product listing */
 
 
 /*product page*/
@@ -53,7 +32,7 @@ img.heart{padding-left: var(--space-xxs);}
 
 .productpage-book{
     padding-left: var(--space-sm);
-    gap: var(--space-md);
+    gap: var(--space-sm);
 
 }
 
@@ -108,6 +87,10 @@ img.heart{padding-left: var(--space-xxs);}
     padding-left: 5px;
 }
 
+.line-botton-padding{
+    padding-bottom: var(--space-xxs);
+}
+
 /* checkout */
 main.checkout-page{
     padding-top: var(--space-xl);
@@ -117,6 +100,12 @@ main.checkout-page{
 
 .checkout-bar{
     padding-bottom: var(--space-sm);}
+
+.icon-star{
+    padding-left: var(--space-xxs);}
+
+.dropdown-information>div > form> input, select{
+    margin-bottom: var(--space-xs);}
 
 /* review */
 .coupon-input{
@@ -183,11 +172,47 @@ main.complete-page{
     .group-bookwelike > .product-card > a > img{
     margin-bottom: var(--space-xs);}
 
+    .product-card.productlisting{
+        padding-bottom: var(--space-sm);
+    }
+    .main-productListing{
+        padding-top: var(--space-lg);
+        padding-bottom: var(--space-lg);
+    }
+
+    .page-number{
+    gap:var(--space-xs)
+    }
+    
+
+    /* product page */
+    .main_productPage{
+        gap: var(--space-md);
+        padding-top: var(--space-xxl);
+    }
+
+    .productpage-container > img{
+        width: 300px;
+    }
+    .productpage-rating{
+        width: 100px;
+        padding-top: var(--space-sm);
+    }
+
+
+
     /* review page */
     main.checkout-page{
         padding-bottom: var(--space-xl);}
 
-
+    footer-font-small-continer{
+        margin-left: 30%;
+        margin-right: 30%;
+        
+    }
+    .footer-col0{
+        margin-top: auto;
+    }
 
 }
 
@@ -232,3 +257,70 @@ main.complete-page{
 }
 
 
+.padding-dropdown{
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+}
+.padding-cart-row{
+padding-left: var(--space-sm);
+padding-right: var(--space-sm);
+}
+
+.small-padding{
+padding: var(--space-sm);
+
+}
+
+.padding-section{
+padding-top: var(--space-lg);
+padding-bottom: var(--space-lg);}
+
+.button-set{
+gap: var(--space-xs);
+}
+
+.xsmall-padding-top{
+    padding-top: var(--space-xxs);
+    }
+
+.small-padding-top{
+padding-top: var(--space-sm);
+}
+
+.small-padding-bottom{
+padding-bottom: var(--space-sm);
+}
+
+.small-gap{
+gap:var(--space-xs);
+}
+
+.middle-gap{
+gap:var(--space-md)
+}
+.large-gap{
+gap: var(--space-xl);
+}
+
+
+.small-margin{
+    margin: var(--space-sm);
+}
+.small-side-margin{
+    margin-left: var(--space-sm);
+    margin-right: var(--space-sm);
+}
+
+.large-side-margin{
+    margin-left: var(--space-xl);
+    margin-right: var(--space-xl);
+}
+
+.small-right-margin{
+    margin-right: var(--space-sm);
+}
+
+
+.xs-margin{
+    margin: var(--space-xs);
+}

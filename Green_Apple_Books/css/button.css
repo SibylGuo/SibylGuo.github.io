@@ -9,8 +9,8 @@ input[type="submit"], input[type="reset"] {
 }
 
 input, textarea, select{
-    border-radius:0.01em;
-    border:0px #D3C1B3 solid;
+    border-radius:0.3em;
+    border:0.5px #D3C1B3 solid;
     background-color: white;
     vertical-align: middle; /*text alignment*/
     }
@@ -55,6 +55,52 @@ input, textarea, select{
     margin-right: auto;
 }
 
+
+
+
+
+
+.btn__sign-in{
+    background-color: rgba(43, 57, 42, 0.2);
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    display: inline-block;
+    font-family: var(--UI-font);
+    text-decoration: none;
+    padding: 3px 12px 4px 12px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.3s;
+    border-radius: 0.5em;
+    line-height:14px;
+}
+
+.btn__sign-in:hover{
+    background-color: var(--orange);
+    border: none;
+    color: var(--pink);
+}
+
+.btn__calculate{
+    max-width: 170px;
+}
+
+.btn_addtoCart{
+    font-size: 8px;
+    padding: 3px 6px 4px 6px;
+}
+
+.btn_Submit{
+    font-size: 6px;
+    padding: 3px 6px 4px 6px;
+
+}
+
+.side-email{
+    max-height: 20px;
+    max-width: 30px;
+}
+
 /*status of button*/
 
 .btn:disabled{
@@ -90,9 +136,33 @@ button:focus {
 
 
 
+
 /* icon */
+
+img.icon-shoppingCart-middle{
+    height: 20px;
+}
+
+
 img.icon-shoppingCart{
     height: 15px;
     padding-right: var(--space-xs);
 }
 
+.icon-s{
+    max-width: 20px;
+}
+
+.bankcard{
+    max-width: 100px;
+    margin-left: 10px;
+}
+.question-mark{
+    max-width: 10px;
+}
+
+.footer-icons > a>img{
+    max-width: 90px;
+    padding-top: 10px;
+
+}

@@ -11,7 +11,7 @@
 /*import font family from google font*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,500&family=Raleway:wght@400;500&display=swap');
 
-    /*box model fix for the whole websit*/
+/*box model fix for the whole websit*/
 html{box-sizing: border-box;}
 
 *,*:before, *:after{
@@ -23,14 +23,5 @@ body{
     width:100%;
     height:100%;}
 
-/*styling the text input*/
-
-
-/* *{transition: all 1.5s ease-in-out;} */
-
-/*  
-<img src="" size="(max-width:480px) 100vw, (the image fill 100% of the view port width)
-                   (max-width:960px) 70vw, 
-                    240px" (if not the situation  upper, size = 240px>*/
 
 

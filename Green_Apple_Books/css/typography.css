@@ -64,6 +64,13 @@ h6{font-size: 0.7rem; /*12px*/}
     font-family: var(--UI-font);}
 
 
+/* Framework */
+.banner-text{
+    font-family: var(--primary-font);
+    color: white;
+}
+
+
 nav > ul > li a {
     font-family: var(--primary-font);
     font-size: 1rem;
@@ -92,7 +99,7 @@ p{
 .title{
     font-family: var(--primary-font);
     font-style: Italic;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 
@@ -113,9 +120,11 @@ p{
 }
 
 
+
+
+
 .product-font{
     font-family: var(--secondary-font);
-    color: #D3C1B3;
     text-align: center;
     text-decoration: none;
     font-size: 0.8rem;
@@ -189,6 +198,32 @@ color: var(--pink);
     font-family: var(--UI-font);
     font-weight: bold;
 }
+
+.secondary-title{
+    font-family: var(--secondary-font);
+    color:var(--pink);
+    font-weight: 500;
+}
+
+.storeSpecials-info{
+    max-width: 300px;
+}
+
+
+
+.delivery-form{
+    font-family: var(--UI-font);
+    font-size: medium;
+    color: var(--pink);
+}
+
+.small-font{
+    font-size: var(--font-size-sm);
+}
+
+.xs-font{
+    font-size:var(--font-size-xs) }
+
 
 /* review */
 .coupon{
