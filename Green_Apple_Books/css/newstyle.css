@@ -283,6 +283,8 @@ footer{
     height: 275px;
 }
 
+
+
 /* ul.dropdown-content.responsive { 
     display: none;
 }*/
@@ -433,13 +435,25 @@ footer{
     flex-direction: column;
     align-items: center;}
 
+
     .group-bookwelike > .product-card{
             min-width: 45%;
             padding-top: 15px;
             justify-self: center;  }
-    
+            
+            
+    .group-bookwelike-small > .product-card{
+                min-width: 32%;
+                padding-top: 15px;
+                justify-self: center;  }
+        
     .product-card > div > a > img{max-height: 20px;}
-    
+
+    .group-bookwelike-small > .product-card >  div > a > img{max-height: 15px;}
+
+
+
+
     .main-b > h1{
         display: flex;
         justify-items: center;}
@@ -545,6 +559,18 @@ footer{
     .text-position{
         text-align: center;
     }
+
+    .footer-container{ display: none;}
+
+
+    .footer-font-small > div >a{
+        padding-bottom: var(--space-xs);
+    }
+    .footer-icons > a>img{
+        max-width: 90px;
+    
+    }
+    
 }
 
     
@@ -564,7 +590,9 @@ footer{
         padding-top: 20px;
         background-image: url('../images/background2.jpg');}
        
-    
+    .footer-font-small-continer{
+        display: none;}
+
     
     .banner{
         background-color: #CF5231;

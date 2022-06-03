@@ -205,14 +205,8 @@ main.complete-page{
     main.checkout-page{
         padding-bottom: var(--space-xl);}
 
-    footer-font-small-continer{
-        margin-left: 30%;
-        margin-right: 30%;
-        
-    }
-    .footer-col0{
-        margin-top: auto;
-    }
+
+        /* footer */
 
 }
 
@@ -283,6 +277,9 @@ gap: var(--space-xs);
     padding-top: var(--space-xxs);
     }
 
+.large-padding-top{
+padding-top: var(--space-lg);
+}
 .small-padding-top{
 padding-top: var(--space-sm);
 }
