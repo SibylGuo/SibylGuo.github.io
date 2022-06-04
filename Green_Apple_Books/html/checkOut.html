@@ -326,34 +326,34 @@
 
                     <div id="delivery" class="checkout-dropdwon dropdown-information drop padding-dropdown flex-column justify-center small-padding"><br>
                         <div class="flex-row flex-around flex-wrap">
-                        <form>
+                        <form id="form" onsubmit=""validate();">
                              <label class="delivery-form" for="fname">First name</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="text" id="fname" name="fname"><br>
+                             <input type="text" id="fname" name="fname" required><br>
                              <label class="delivery-form" for="lname">Last name</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="text" id="lname" name="lname"><br>
+                             <input type="text" id="lname" name="lname" required><br>
                              <label class="delivery-form" for="Street">Street</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="text" id="street" name="street"><br>
+                             <input type="text" id="street" name="street" required><br>
                              <label class="delivery-form" for="City">City</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="text" id="city" name="city"><br>
-                        </form>
-                        <form> 
+                             <input type="text" id="city" name="city" required><br>
                              <label class="delivery-form" for= "State">State / Province</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
                              <select id="state" name="State"><br>
-                                <option class="" value="">LA</option>
+                                <option class="" value="" required>LA</option>
                                 <option value="">california</option>
                                 <option value="">Others</option>
                              </select><br>
                              <label class="delivery-form" for= "State">Country</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <select id="country" name="Country"><br>
+                             <select id="country" name="Country" required><br>
                                 <option value="">USA</option>
                                 <option value="">International</option>
                              </select><br>
                              <label class="delivery-form" for="postcode">Postal Code</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="number" id="postcode" name="postcode"><br>
+                             <input type="number" id="postcode" name="postcode" required><br>
                              <label class="delivery-form" for="phone">Phone Number</label><img class="icon-star" src="/icon/Icon awesome-star-of-life.svg"><br>
-                             <input type="number" id="phone" name="phone"><br>
-                        </form>
-                        </div><br>
+                             <input type="number" id="phone" name="phone" required><br>
+                             <button type="submit" value="Submit">submit</button>
+                    
+                        </div>
+                        <br>
                         <div class="flex-column justify-content-right full-width">
                             <button href="javascript:void(0)" onclick="toggledropinfo4(), toggledropinfo5()" class="btn btn-align-right ">Next</button>
                         </div>  

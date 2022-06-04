@@ -1,11 +1,10 @@
 /*load different file for different size of screen*/
 @import url("/css/colous.css");
 @import url("/css/typography.css");
-@import url("/css/newstyle.css");
 @import url("/css/spacing.css");
 @import url("/css/animation.css");
 @import url("/css/button.css");
-@import url("/css/layout.css") screen and (min-width: 960px);
+@import url("/css/layout.css");
 
 
 /*import font family from google font*/

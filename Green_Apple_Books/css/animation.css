@@ -88,3 +88,18 @@ a:hover {
         display: none;} 
 }
 @media screen and (min-width: 960px){}
+
+
+/* js */
+#nameError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  #nameError.visible {
+    display: block;
+  }
+  
+  input.invalid {
+    border-color: red;
+  }
